@@ -1,6 +1,6 @@
 # Compute price report
 
-Generated 2026-11-02 15:55 UTC from `data/`. Prices are USD per GPU-hour, Linux, medians across regions unless stated.
+Generated 2026-11-02 16:35 UTC from `data/`. Prices are USD per GPU-hour, Linux, medians across regions unless stated.
 
 ## 1. Price levels by provider and tier
 
@@ -11,7 +11,7 @@ Azure snapshot 2026-11-02; Nebius spot snapshot 2026-11-02; Nebius on-demand fro
 | GB200 | $33.53 | $14.75 | $33.53 |  |  |  |
 | B300 |  |  |  | $9.50 | $9.19 |  |
 | B200 |  |  |  | $8.50 | $4.90 |  |
-| H200 | $13.25 | $6.60 | $13.25 | $5.40 | $1.55 | 2.5x |
+| H200 | $13.25 | $6.60 | $13.25 | $5.40 | $1.70 | 2.5x |
 | H100 | $11.06 | $5.49 | $2.45 | $4.50 | $0.79 | 2.5x |
 | MI300X | $7.50 | $3.29 | $1.39 |  |  |  |
 | A100 | $4.92 | $1.80 | $0.97 |  |  |  |
@@ -30,7 +30,7 @@ A spot price close to the on-demand price means the provider has little idle cap
 | Azure | A100 | 20% |
 | Nebius | B300 | 97% |
 | Nebius | B200 | 58% |
-| Nebius | H200 | 29% |
+| Nebius | H200 | 31% |
 | Nebius | H100 | 18% |
 
 ## 3. Nebius spot prices over time
@@ -39,11 +39,11 @@ Hourly average spot price, median across regions.
 
 | GPU | Latest median spot | 7-day change | 30-day change | 30-day low | 30-day high | Regions now (low to high) |
 | --- | --- | --- | --- | --- | --- | --- |
-| B300 | $9.34 | +274% | +117% | $0.99 | $9.49 | 3 ($8.74 to $9.34) |
-| B200 | $4.78 | -16% | +21% | $0.99 | $6.62 | 2 ($3.80 to $5.77) |
-| H200 | $1.65 | +18% | -33% | $0.79 | $5.39 | 3 ($1.40 to $1.70) |
+| B300 | $9.19 | +384% | +114% | $0.99 | $9.49 | 3 ($8.29 to $9.34) |
+| B200 | $4.90 | -18% | +24% | $0.99 | $6.62 | 2 ($3.80 to $6.00) |
+| H200 | $1.70 | +36% | -31% | $0.79 | $5.39 | 3 ($1.25 to $2.10) |
 | H100 | $0.79 | -21% | -63% | $0.79 | $2.15 | 1 ($0.79 to $0.79) |
-| RTX PRO 6000 | $1.24 | -11% | +30% | $0.79 | $1.38 | 3 ($0.79 to $1.33) |
+| RTX PRO 6000 | $1.38 | +0% | +45% | $0.79 | $1.38 | 3 ($0.79 to $1.63) |
 
 Prices held one fixed rate until 2026-10-08, when market-based spot pricing appears to start. Changes measured across that date mix the old fixed rate with market prices.
 
